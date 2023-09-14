@@ -82,28 +82,18 @@ margin-top: 20px;
     font-weight: 500;
 }
 
-h2{
+.text{
     margin-top: 160px;
     font-size: 58px;
     font-weight: 500;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 41px;
-    flex-grow: 0;
-    flex-shrink: 0;
+    width: 769px;
+    height: 136px;
+    margin-bottom: 41px;
 }
 
-.pictures{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 41px 240px;
-}
-
-.picture{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px 341px;
-}
 
 #lisiy{
     width: 287px;
@@ -116,14 +106,70 @@ h2{
     height: 254px;
    
 }
+ 
+.first{
+    flex-wrap: wrap;
+    width: 450px;
+    height: 506px;
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+
+.second{
+ width: 450px;
+ height: 468px;
+ display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+
+.name{
+    gap: 20px 100px;
+    justify-content: start;
+    font-size: 27px;
+    width: 420px;
+    font-weight: 600;
+}
+
+.description{
+    justify-content:flex-start ;
+    width: 450px;
+    font-size: 27px;
+   
+}
 
 #boy{
     width: 192px;
     height: 192px;
 }
 
+
+.third{
+    width: 432px;
+    height: 468px;
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+     
 #altushka{
     width: 238px;
     height: 238px;
-  
 }
+.fourth{
+    width: 477px;
+    height: 506px;
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+
+     
+    
+
+    
