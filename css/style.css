@@ -1,175 +1,161 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'TT Hoves';
-    color: #222;
-    line-height: 140%;
+body {
+  font-family: "TT Hoves";
+  color: #222;
+  line-height: 140%;
 }
 
-section{
- padding: 0 120px;
-
+section {
+  padding: 0 120px;
 }
 
-.logo{
- width: 295px;
- margin-top: 37px;
+.logo {
+  width: 295px;
+  margin-top: 37px;
 }
 
-.courseData{
- margin-top: 85px;
- margin-bottom: 76px;
- display: flex;
- flex-wrap: wrap;
-gap: 30px 160px;
-font-size: 21px; 
-
+.courseData {
+  margin-top: 85px;
+  margin-bottom: 76px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 160px;
+  font-size: 21px;
 }
 
-.courseInfo .value{
-    font-weight: 700; 
+.courseInfo .value {
+  font-weight: 700;
 }
 
-h1{
-    font-family: 'Chava';
-    font-size: 80px;
-    line-height: 110%;
-    margin-bottom: 40px;
+h1 {
+  font-family: "Chava";
+  font-size: 80px;
+  line-height: 110%;
+  margin-bottom: 40px;
 }
 
-p{
-    font-size: 27px;
-    font-weight: 300;
+p {
+  font-size: 27px;
+  font-weight: 300;
 }
 
-.cta{
-display: flex;
-gap: 20px 30px;
-flex-wrap: wrap;
-margin-top: 20px;
-
+.cta {
+  display: flex;
+  gap: 20px 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
-.primary{
-    flex-basis: 328px;
-    flex-grow: 0;
-    flex-shrink: 1;
-    padding: 20px 0px;
-    border-radius: 12px;
-    background: #6E3ABA;
-    color: white;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
-
-    
+.primary {
+  flex-basis: 328px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  padding: 20px 0px;
+  border-radius: 12px;
+  background: #6e3aba;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.secondary{
-    flex-basis: 328px;
-    flex-grow: 0;
-    flex-shrink: 1;
-    padding: 20px 0px;
-    border-radius: 12px;
-    border: 1px solid #6E3ABA;
-    background:white ;
-    color: #6E3ABA;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
+.secondary {
+  flex-basis: 328px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  padding: 20px 0px;
+  border-radius: 12px;
+  border: 1px solid #6e3aba;
+  background: white;
+  color: #6e3aba;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.text{
-    margin-top: 160px;
-    font-size: 58px;
-    font-weight: 500;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 41px;
-    width: 769px;
-    height: 136px;
-    margin-bottom: 41px;
+.text {
+  flex-shrink: 1;
+  flex-grow: 0;
+  margin-top: 160px;
+  font-size: 58px;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 41px;
+  margin-bottom: 41px;
+  line-height: normal;
 }
 
-
-#lisiy{
-    width: 287px;
-    height: 287px;
-   
+#lisiy {
+  width: 287px;
+  height: 287px;
 }
 
-#girl{
-    width: 254px;
-    height: 254px;
-   
-}
- 
-.first{
-    flex-wrap: wrap;
-    width: 450px;
-    height: 506px;
-    display: inline-flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 10px;
+#girl {
+  width: 254px;
+  height: 254px;
 }
 
-.second{
- width: 450px;
- height: 468px;
- display: inline-flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 10px;
+.first {
+  flex-wrap: wrap;
+  width: 450px;
+  height: 506px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 
-.name{
-    gap: 20px 100px;
-    justify-content: start;
-    font-size: 27px;
-    width: 420px;
-    font-weight: 600;
+.second {
+  width: 450px;
+  height: 468px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 
-.description{
-    justify-content:flex-start ;
-    width: 450px;
-    font-size: 27px;
-   
+.name {
+  gap: 20px 100px;
+  justify-content: start;
+  font-size: 27px;
+  width: 420px;
+  font-weight: 600;
 }
 
-#boy{
-    width: 192px;
-    height: 192px;
+.description {
+  justify-content: flex-start;
+  width: 450px;
+  font-size: 27px;
 }
 
-
-.third{
-    width: 432px;
-    height: 468px;
-    display: inline-flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 10px;
-}
-     
-#altushka{
-    width: 238px;
-    height: 238px;
-}
-.fourth{
-    width: 477px;
-    height: 506px;
-    display: inline-flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 10px;
+#boy {
+  width: 192px;
+  height: 192px;
 }
 
-     
-    
+.third {
+  width: 432px;
+  height: 468px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
 
-    
+#altushka {
+  width: 238px;
+  height: 238px;
+}
+.fourth {
+  width: 477px;
+  height: 506px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
