@@ -7,7 +7,6 @@
 body {
   font-family: "TT Hoves";
   color: #222;
-  
 }
 
 section {
@@ -211,9 +210,45 @@ section.purple {
   padding-bottom: calc(5.2vw + 22px);
 }
 
-section.hello{
+section.hello {
   background-image: url(./img/html_css_js.png);
   background-repeat: no-repeat;
   background-position: right 20px top 70px;
   background-size: calc(23.8vw + 90px);
+}
+
+h4 {
+  width: calc(77vw + 40px);
+  font-size: calc(2.66vw + 24px);
+  font-weight: 500;
+  letter-spacing: 0.34px;
+  text-transform: uppercase;
+  margin-bottom: calc(7.8vw - 9px);
+}
+
+.promise {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: calc(1vw + 14px);
+}
+
+.des {
+  display: flex;
+  width: calc(8vw + 298px);
+  font-size: calc(1vw + 14px);
+}
+
+.total1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: calc(8vw + 298px);
+}
+.total2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  width: calc(8vw + 298px);
 }
