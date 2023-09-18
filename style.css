@@ -83,6 +83,7 @@ p {
 }
 
 .text {
+  width: calc(48vw + 145px);
   flex-shrink: 1;
   flex-grow: 0;
   margin-top: 160px;
@@ -238,17 +239,63 @@ h4 {
   font-size: calc(1vw + 14px);
 }
 
-.total1 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
+.total {
   width: calc(8vw + 298px);
 }
-.total2 {
+
+.tot {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 20px;
-  width: calc(8vw + 298px);
+  flex-wrap: wrap;
+  gap: 90px 120px;
+}
+
+h2 {
+  font-size: calc(2.6vw + 24px);
+  font-weight: 500;
+  letter-spacing: 0.58px;
+  text-transform: uppercase;
+}
+
+.legend {
+  margin-top: calc(5.5vw + 19px);
+  display: flex;
+  gap: 20px 50px;
+}
+
+.ym {
+  flex-basis: 200px;
+  flex-grow: 1;
+}
+
+.ym img {
+  width: 100%;
+}
+
+.bio {
+  flex-basis: 460px;
+  flex-grow: 3;
+}
+
+.bio h3 {
+  color: #222;
+  text-transform: capitalize;
+  text-align: left;
+  font-size: calc(1vw + 34px);
+}
+
+.achievments {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: calc(1vw + 26px) calc(8.8vw - 23px);
+  margin-top: calc(5.5vw + 19px);
+}
+
+.achievments span {
+  display: block;
+  margin-top: 10px;
+  font-size: calc(0.5vw + 14px);
+}
+
+.inf {
+  margin-top: 30px;
 }
