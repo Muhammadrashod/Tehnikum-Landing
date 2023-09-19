@@ -37,6 +37,7 @@ section:last-child {
 }
 
 h1 {
+  display: flex;
   flex-wrap: nowrap;
   font-family: "Chava";
   font-size: calc(4.2vw + 26px);
