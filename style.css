@@ -37,7 +37,7 @@ section:last-child {
 }
 
 h1 {
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   font-family: "Chava";
   font-size: calc(4.2vw + 26px);
   line-height: 110%;
