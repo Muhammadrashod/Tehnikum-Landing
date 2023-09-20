@@ -319,7 +319,9 @@ h2 {
   width: calc(11vw + 286px);
   height: calc(8vw + 200px);
 }
-
+.container {
+  display: flex;
+}
 .dipl {
   width: calc(27vw + 224px);
   font-size: calc(2.7vw + 24px);
@@ -327,8 +329,30 @@ h2 {
   letter-spacing: 0.34px;
   text-transform: uppercase;
   color: #222;
+  text-align: center;
+  flex-wrap: wrap;
 }
 .opis {
   font-size: calc(1vw + 14px);
   width: calc(21vw + 247px);
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 19px 20px;
+}
+.salar {
+  width: calc(44vw + 161px);
+  height: calc(5vw + 141px);
+  font-size: calc(2.7vw + 24px);
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: 0.58px;
+  text-transform: uppercase;
+  color: var(--typo-black, #222);
+   margin-bottom: calc(2.2vw + 11.8px);
+}
+.opiss{
+  width: calc(60.5vw + 100px);
+  font-size: calc(1vw + 14px);
+  color: var(--typo-black, #222);
+ 
 }
