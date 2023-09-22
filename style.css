@@ -431,3 +431,63 @@ section.space {
   width: calc(21.6vw + 246.7px);
   font-size: calc(0.3vw + 16.7px);
 }
+
+.infff {
+  width: calc(20.2vw + 252px);
+  font-size: calc(2.7vw + 24px);
+  margin-bottom: calc(5vw + 15px);
+  font-weight: 500;
+  letter-spacing: 0.58px;
+  text-transform: uppercase;
+}
+
+.infself {
+  grid-template-columns: 2fr 2fr;
+  grid-template-areas:
+    "a a c c"
+    "a a d d"
+    "b b e e"
+    "b b f f";
+}
+
+#cup {
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0;
+  grid-area: a;
+}
+.itpark {
+  width: calc(10.8vw + 287.3px);
+  font-size: calc(0.5vw + 20px);
+  font-weight: 600;
+  text-transform: uppercase;
+  grid-area: b;
+}
+.black {
+  font-size: calc(2.7vw + 24px);
+  width: calc(-14.2vw + 381px);
+  font-weight: 700;
+  letter-spacing: 0.58px;
+  grid-area: c;
+  color: var(--typo-black, #222);
+}
+.type {
+  width: 252px;
+  font-size: 16px;
+  grid-area: d;
+  color: var(--typo-black, #222);
+}
+.blackk {
+  font-size: calc(2.7vw + 24px);
+  width: calc(-14.2vw + 381px);
+  font-weight: 700;
+  letter-spacing: 0.58px;
+  grid-area: e;
+  color: var(--typo-black, #222);
+}
+.typee {
+  width: 252px;
+  font-size: 16px;
+  grid-area: f;
+  color: var(--typo-black, #222);
+}
