@@ -419,6 +419,7 @@ section.space {
 
 .wish {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .will {
@@ -426,6 +427,7 @@ section.space {
 }
 
 .box {
+  flex-wrap: wrap;
   margin-bottom: 25px;
   display: flex;
   width: calc(21.6vw + 246.7px);
@@ -580,6 +582,7 @@ button {
   padding-bottom: 84px;
 }
 .wrapper {
+  flex-wrap: wrap;
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -587,9 +590,9 @@ button {
 }
 .smallText {
   color: #fff;
-  width: 402px;
+  width: calc(10.1vw + 271.8px);
   font-family: "TT Hoves";
-  font-size: 27px;
+  font-size: calc(1vw + 14.2px);
   font-weight: 400;
   line-height: 140%;
   text-transform: uppercase;
@@ -600,15 +603,20 @@ button {
   align-items: center;
   margin-right: 20px;
 }
+
+.introduction {
+  flex: 1;
+}
 .registration {
-  margin-top: 100px;
-  margin-left: 145px;
+  flex: 1;
+  margin-top: calc(1.1vw + 85.1px);
+  margin-left: 170px;
   background: #fff;
   color: #fff;
-  width: 475px;
-  height: 600px;
-  flex-shrink: 0;
+  width: calc(16.3vw + 265.6px);
+  height: calc(7.8vw + 500px);
   border-radius: 12px;
+  flex-wrap: wrap;
 }
 .container {
   display: flex;
@@ -617,17 +625,18 @@ button {
 .purpleCircle {
   position: absolute;
   margin-top: 39px;
-  margin-left: 600px;
+  margin-left: 630px;
   width: 159px;
   height: 159px;
   flex-shrink: 0;
   border-radius: 2px;
   border-color: #6e3aba;
 }
+
 .absolut {
   position: absolute;
   margin-top: 70px;
-  margin-left: 621px;
+  margin-left: 650px;
   color: #fff;
   font-family: "TT Hoves";
   font-size: 63px;
@@ -679,7 +688,7 @@ form span {
   align-items: center;
   margin-left: 70px;
 }
-.form input placeholder {
+.form input ::placeholder {
   color: rgba(0, 0, 0, 0.17);
   font-family: "TT Hoves";
   font-size: 20px;
@@ -688,5 +697,110 @@ form span {
   text-transform: capitalize;
 }
 .flag {
+  margin-top: 1.8vh;
+  margin-left: 10vh;
   position: absolute;
+}
+.blackground .form .primary {
+  display: flex;
+  width: 320px;
+  margin-left: 74px;
+  padding: 20px 0px;
+  align-items: flex-start;
+  text-align: center;
+  margin-bottom: 30px;
+  justify-content: center;
+  gap: 10px;
+}
+.extraInfo {
+  color: #222;
+  text-align: center;
+  font-family: "TT Hoves";
+  font-size: 18px;
+  text-transform: lowercase;
+  opacity: 0.5;
+}
+.Question {
+  color: #222;
+  text-align: center;
+  font-family: "TT Hoves";
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: lowercase;
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+@media (max-width: 768px) {
+  .blackground {
+    background: #222;
+    width: 375px;
+    height: 1150px;
+    flex-shrink: 0;
+  }
+  .container {
+    flex-direction: column;
+  }
+
+  .introduction {
+    order: -1;
+  }
+  .courseOffer {
+    width: 329px;
+    font-family: "TT Hoves";
+    font-size: 40px;
+    letter-spacing:0.34px;
+    padding-top: 40px;
+    padding-bottom:41.5px;
+  }
+  .registration {
+    margin-left: 23px;
+  }
+  .purpleCircle {
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 285px;
+    width: 105px;
+    height: 105px;
+  }
+  
+  .absolut {
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 295px;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  form b {
+    font-size: 26px;
+    margin-left: 5px;
+    display: block;
+  }
+  form span {
+    width: 200px;
+    height: 22px;
+    margin-left: 70px;
+    font-size: 16px;
+  }
+  .form {
+    gap: 10px;
+  }
+  .form input {
+    width: 267px;
+    height: 37px;
+    margin-left: 30px;
+    margin-right: 120px;
+    justify-content: left;
+    align-items: left;
+  }
+  .flag {
+    margin-top: 1.2vh;
+    margin-left: 3.5vh;
+    position: absolute;
+  }
+  .blackground .form .primary {
+    display: flex;
+    width: 267px;
+    margin-left: 40px;
+  }
 }
